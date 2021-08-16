@@ -36,3 +36,6 @@ Ruby is an object-oriented-programming language (OOP) that uses classes as bluep
 Some terminologies in OOP
 
 - **Encapsulation**
+  `kchk` <br>`jhdk`
+  > hdbcjd
+  > cjhsbc
