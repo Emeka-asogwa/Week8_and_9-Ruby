@@ -42,3 +42,27 @@ Some terminologies in OOP
 
 - **Polymorphism** <br>
   **Poly** stands for "many" and **morph** stands for "forms". This is the ability for different types of data to respond to a common interface.
+
+  A module helps us to group reusable code into one place, and then use it classes by using the `include` method to invoke it.
+
+```ruby
+  module Walk
+  def walk(move)
+    puts move
+  end
+end
+
+class NiceWalk
+  include Walk
+end
+
+class AnimalType
+  include Walk
+end
+
+run = NiceWalk.new
+run.walk("cat")
+goat = AnimalType.new
+goat.walk("Gentle walk")
+
+```
