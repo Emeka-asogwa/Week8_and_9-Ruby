@@ -36,6 +36,9 @@ Ruby is an object-oriented-programming language (OOP) that uses classes as bluep
 Some terminologies in OOP
 
 - **Encapsulation**
-  `kchk` <br>`jhdk`
-  > hdbcjd
-  > cjhsbc
+  This is hiding pieces of functionality and making it unavailable to the rest of the code base, in this way, data can be protected from being manipulated or changed without a conscious intention.
+
+  Just like many other OO languages, ruby creates objects, and expose interfaces (i.e., methods) to interact with those objects.
+
+- **Polymorphism** <br>
+  **Poly** stands for "many" and **morph** stands for "forms". This is the ability for different types of data to respond to a common interface.
