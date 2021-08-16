@@ -10,7 +10,7 @@ ruby file.rb
 
 ## Looping through an array: Example
 
-```
+```ruby
 array = ['Hello', 'you', 'please', 'come']
 array.each { |word| puts word }
 
@@ -28,3 +28,11 @@ come
 - The `::` Syntax is used to access constants (Modules, Classes, etc)
 - It is convention to only capitalize the first letter when defining Class and Module constants like Apple
 - It is convention to capitalize and underscore the entire name when defining value constants like FOUNDED_BY
+
+## Object Oriented Programming (OOP) in Ruby
+
+Ruby is an object-oriented-programming language (OOP) that uses classes as blueprints for objects.
+
+Some terminologies in OOP
+
+- **Encapsulation**
