@@ -46,7 +46,7 @@ Some terminologies in OOP
   A module helps us to group reusable code into one place, and then use it classes by using the `include` method to invoke it.
 
 ```ruby
-  module Walk
+module Walk
   def walk(move)
     puts move
   end

@@ -17,23 +17,23 @@ run.walk("cat")
 goat = AnimalType.new
 goat.walk("Gentle walk")
 
+puts '------------------Method---------------------'
+
 # ------------------ Method --------------
-module Speak
-  def speak(sound)
-    puts "#{sound}"
+class GoodDog
+  def initialize(name)
+    @name = name
+  end
+
+  def get_name
+    @name
+  end
+
+  def speak
+    "#{@name} says arf!"
   end
 end
 
-class GoodDog
-  include Speak
-end
-
-class HumanBeing
-  include Speak
-end
-
-puts "---GoodDog ancestors---"
-puts GoodDog.ancestors
-puts ''
-puts "---HumanBeing ancestors---"
-puts HumanBeing.ancestors
+sparky = GoodDog.new("Sparky")
+puts sparky.speak
+puts sparky.get_name
